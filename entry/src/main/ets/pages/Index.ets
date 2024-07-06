@@ -1,11 +1,11 @@
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
+  @State messages: string = 'Hello World';
 
   build() {
     RelativeContainer() {
-      Text(this.message)
+      Text(this.messages)
         .id('HelloWorld')
         .fontSize(50)
         .fontWeight(FontWeight.Bold)
