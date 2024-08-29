@@ -13,7 +13,7 @@ struct ComponentPage {
           center: { anchor: '__container__', align: VerticalAlign.Center },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
         })
-        .onClick(()=>{})
+        .onClick(()=>{console.info("test")})
     }
     .height('100%')
     .width('100%')
