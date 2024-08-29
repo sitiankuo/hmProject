@@ -2,9 +2,12 @@
   "name": "entry",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
-  "main": "",
+  "main": "Index.ets",
   "author": "",
   "license": "",
   "dependencies": {}
 }
 
+//dependencies（生产依赖）：声明需要在代码中import的HarmonyOS三方库（参与编译/运行阶段使用的依赖）。
+//devDependencies（开发依赖）：参与项目的开发或测试阶段。
+//dynamicDependencies（动态依赖）：动态依赖的HSP模块。在开发者需要动态加载HSP的时候配置使用。
